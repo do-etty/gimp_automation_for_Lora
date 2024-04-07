@@ -4,7 +4,7 @@
 
 gimp_automation_for_Lora
 
-## 概要
+## Overview
 このプラグインは、gimpで画像のリサイズや保存の作業を効率化するためのものです。
 Stable DiffusionでLora作成のための下処理作業を念頭に置いています。
 FitSizeToLargerは画像サイズを、幅と高さの大きい方に合わせます。
@@ -40,18 +40,20 @@ ResizeSaveImageは特性のサイズ（デフォルトでは512×512に設定）
 デフォルトではオフにしていますが、xcfファイル（gimpの編集用データ）も保存できます。
 
 使用例
-1.学習させるデータダウンロードし、gimpで開く。
-2.画像で必要な部分のみを長方形に切り出す。
-3.FitSizeToLargerで正方形にし、ResizeSaveImageで保存。
-4.背景画像の除去（transparent-backgroundや、PBRemToolsなど）
-5.4で作成した画像を手動でgimpの消しゴムツール等を用いて修正。
+1. 学習させるデータダウンロードし、gimpで開く。
+2. 画像で必要な部分のみを長方形に切り出す。
+3. FitSizeToLargerで正方形にし、ResizeSaveImageで保存。
+4. 背景画像の除去（transparent-backgroundや、PBRemToolsなど）
+5. 4で作成した画像を手動でgimpの消しゴムツール等を用いて修正。
 （必要な場合のみ。イラスト系は手動修正がほぼ必須な印象です。）
-6.5をResizeSaveImageで再び保存。
-7.Loraを作成。
+6. 5をResizeSaveImageで再び保存。
+7. Loraを作成。
 
 ## Reference
 https://www.youtube.com/watch?v=K0tV0Rnp8PI
+
 https://www.youtube.com/watch?v=p9A1oVXneAE
+
 https://citrus-designs.com/gimp-speedup-techniques/
 
 
@@ -61,4 +63,9 @@ https://citrus-designs.com/gimp-speedup-techniques/
 
 ## Licence
 
-[MIT](https://......)
+[MIT](https://www.tldrlegal.com/license/mit-license)
+
+## Supplement
+- ライセンス等で不都合あれば修正します。
+- コードに関しても不具合、改善、新機能リクエストなどもあればできれば取り入れたいと思います。
+- 何かあればX(twitter)のDMまでご連絡ください。
