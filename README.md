@@ -58,8 +58,8 @@ https://citrus-designs.com/gimp-speedup-techniques/
 
 
 ## Author
-
-[twitter](https://twitter.com/SD_Helper)
+SDヘルパー　どえってぃ
+[X（twitter）](https://twitter.com/SD_Helper)
 
 ## Licence
 
